@@ -4,15 +4,15 @@ import { Bed, DollarSign } from "lucide-react";
 const Header = () => {
   return (
     <header className="bg-white shadow-lg border-b-4 border-red-500">
-      <div className="container mx-auto px-4 py-6">
+      <div className="container mx-auto px-4 py-8">
         <div className="flex items-center justify-center space-x-4">
           <img 
             src="/lovable-uploads/06c5c938-6d35-4f4c-b7ab-478b8a8bfa69.png" 
             alt="Sleep Scam Reviews Logo" 
-            className="h-16 w-auto"
+            className="h-32 w-auto max-w-full"
           />
         </div>
-        <nav className="mt-6">
+        <nav className="mt-8">
           <ul className="flex justify-center space-x-8 text-lg font-semibold">
             <li><a href="#reviews" className="text-slate-700 hover:text-red-600 transition-colors">Fake Reviews</a></li>
             <li><a href="#truth" className="text-slate-700 hover:text-red-600 transition-colors">The Truth</a></li>
