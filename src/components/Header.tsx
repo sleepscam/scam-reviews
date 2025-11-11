@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="flex items-center justify-center space-x-4">
           <img 
-            src="/lovable-uploads/06c5c938-6d35-4f4c-b7ab-478b8a8bfa69.png" 
+            src="/sleepscam-logo.png" 
             alt="Sleep Scam Reviews Logo" 
             className="h-32 w-auto max-w-full"
           />
